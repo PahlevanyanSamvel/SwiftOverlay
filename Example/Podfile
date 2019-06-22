@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftOverlay_Example' do
+  pod 'SwiftOverlay', :path => '../'
+
+  target 'SwiftOverlay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
