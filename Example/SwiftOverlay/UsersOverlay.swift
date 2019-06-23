@@ -24,6 +24,8 @@ class UsersOverlay: OverlayVC  {
         self.scrollView = tableView
         self.containerView = tableContentView
         self.setupPanView(pan: getPanView())
+        self.tableView.layer.borderWidth = 1
+        self.tableView.layer.borderColor = UIColor.black.cgColor
         //
         fetchUsers()
     }
