@@ -30,9 +30,9 @@ class UsersOverlay: OverlayVC  {
 }
 ```
 
-## zxc
+## Usage scenario
 
-https://github.com/PahlevanyanSamvel/SwiftOverlay/blob/master/Resource/example.gif
+(https://github.com/PahlevanyanSamvel/SwiftOverlay/blob/master/Resource/example.gif)
 
 ## Author
 
