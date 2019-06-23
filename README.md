@@ -19,10 +19,20 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftOverlay'
 ```
+## Usage
+```swift
+class UsersOverlay: OverlayVC  {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+}
+```
 
 ## Author
 
-PahlevanyanSamvel, pahlevanyansamvel@gmail.com
+Pahlevanyan Samvel, pahlevanyansamvel@gmail.com
 
 ## License
 
