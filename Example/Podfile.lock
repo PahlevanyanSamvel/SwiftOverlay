@@ -1,0 +1,23 @@
+PODS:
+  - Kingfisher (4.10.1)
+  - SwiftOverlay (0.1.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - SwiftOverlay (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  SwiftOverlay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SwiftOverlay: 15b85516342d884ba05f9e46df9b4207613dbef4
+
+PODFILE CHECKSUM: ba6b75a3bfa6d7cd2347080c5b60abd4ab99a2bc
+
+COCOAPODS: 1.7.1

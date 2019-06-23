@@ -1,0 +1,6 @@
+framework module Pods_SwiftOverlay_Tests {
+  umbrella header "Pods-SwiftOverlay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

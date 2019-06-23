@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		88E9DCAA456473C085421CE5 /* Pods_SwiftOverlay_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABA2C24AF086DC7413ABBC1 /* Pods_SwiftOverlay_Tests.framework */; };
+		FE9E9D0C22BF59310001D56C /* UsersOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E9D0B22BF59310001D56C /* UsersOverlay.swift */; };
+		FE9E9D0E22BF5AF40001D56C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E9D0D22BF5AF40001D56C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +31,9 @@
 
 /* Begin PBXFileReference section */
 		03EB1578A6D9F523BCBC7BB0 /* Pods-SwiftOverlay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOverlay_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftOverlay_Tests/Pods-SwiftOverlay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0A343018D861CD4BFD9F4A0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		381388B788033EDE103CAE28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3DC9FC1E1FB6D2AFDC3B22AA /* SwiftOverlay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftOverlay.podspec; path = ../SwiftOverlay.podspec; sourceTree = "<group>"; };
+		0A343018D861CD4BFD9F4A0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		381388B788033EDE103CAE28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3DC9FC1E1FB6D2AFDC3B22AA /* SwiftOverlay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftOverlay.podspec; path = ../SwiftOverlay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5ABA2C24AF086DC7413ABBC1 /* Pods_SwiftOverlay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOverlay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA44ACB5A0C8CDEFD454297 /* Pods-SwiftOverlay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOverlay_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftOverlay_Example/Pods-SwiftOverlay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		604EC062D1EAF108ECD65400 /* Pods-SwiftOverlay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOverlay_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftOverlay_Example/Pods-SwiftOverlay_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		E08AEF8186EF0B2670E38FDB /* Pods-SwiftOverlay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOverlay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftOverlay_Tests/Pods-SwiftOverlay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E299590B3EECC0423036A438 /* Pods_SwiftOverlay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOverlay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9E9D0B22BF59310001D56C /* UsersOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersOverlay.swift; sourceTree = "<group>"; };
+		FE9E9D0D22BF5AF40001D56C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				FE9E9D0B22BF59310001D56C /* UsersOverlay.swift */,
+				FE9E9D0D22BF5AF40001D56C /* User.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +162,6 @@
 				E08AEF8186EF0B2670E38FDB /* Pods-SwiftOverlay_Tests.debug.xcconfig */,
 				03EB1578A6D9F523BCBC7BB0 /* Pods-SwiftOverlay_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3RG4FADZTM;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3RG4FADZTM;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,10 +277,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftOverlay_Example/Pods-SwiftOverlay_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftOverlay/SwiftOverlay.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9E9D0E22BF5AF40001D56C /* User.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				FE9E9D0C22BF59310001D56C /* UsersOverlay.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +490,7 @@
 			baseConfigurationReference = 5DA44ACB5A0C8CDEFD454297 /* Pods-SwiftOverlay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RG4FADZTM;
 				INFOPLIST_FILE = SwiftOverlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +506,7 @@
 			baseConfigurationReference = 604EC062D1EAF108ECD65400 /* Pods-SwiftOverlay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RG4FADZTM;
 				INFOPLIST_FILE = SwiftOverlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E08AEF8186EF0B2670E38FDB /* Pods-SwiftOverlay_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3RG4FADZTM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03EB1578A6D9F523BCBC7BB0 /* Pods-SwiftOverlay_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3RG4FADZTM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
