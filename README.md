@@ -29,6 +29,20 @@ class UsersOverlay: OverlayVC  {
     
 }
 ```
+## Config
+```swift
+class UsersOverlay: OverlayVC  {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //
+        self.containerView = tableContentView // Required
+        self.scrollView = tableView // Optional
+        self.setupPanView(pan: getPanView()) // Optional
+        //
+    }
+}
+```
 
 ## Usage scenario
 ![](https://github.com/PahlevanyanSamvel/SwiftOverlay/blob/master/Resource/example.gif)
