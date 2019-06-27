@@ -1,9 +1,24 @@
 # SwiftOverlay
 
-[![CI Status](https://img.shields.io/travis/PahlevanyanSamvel/SwiftOverlay.svg?style=flat)](https://travis-ci.org/PahlevanyanSamvel/SwiftOverlay)
-[![Version](https://img.shields.io/cocoapods/v/SwiftOverlay.svg?style=flat)](https://cocoapods.org/pods/SwiftOverlay)
-[![License](https://img.shields.io/cocoapods/l/SwiftOverlay.svg?style=flat)](https://cocoapods.org/pods/SwiftOverlay)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftOverlay.svg?style=flat)](https://cocoapods.org/pods/SwiftOverlay)
+<p align="left">
+  <a href="https://developer.apple.com/swift/">
+      <img src="https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat" alt="Swift 5.0">
+  </a>
+  <a href="https://travis-ci.com/arturdev/Unrealm">
+      <img src="https://travis-ci.com/PahlevanyanSamvel/SwiftOverlay.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://cocoapods.org/pods/Unrealm">
+      <img src="https://img.shields.io/cocoapods/v/SwiftOverlay.svg?style=flat" alt="Version">
+  </a>
+  <a href="https://cocoapods.org/pods/Unrealm">
+      <img src="https://img.shields.io/cocoapods/l/SwiftOverlay.svg?style=flat" alt="License">
+  </a>
+  <a href="https://cocoapods.org/pods/Unrealm">
+      <img src="https://img.shields.io/cocoapods/p/SwiftOverlay.svg?style=flat" alt="Platform">
+  </a>
+
+</p>
+
 
 ## Example
 
